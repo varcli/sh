@@ -7,4 +7,4 @@ apt -y update && apt -y install curl wget sudo || yum install -y curl wget || ap
 
 - ### (centos、ubuntu、debian、alpine)一键开启SSH
 ```sh
-bash -c  "$(curl -fsSL https://cdn.jsdelivr.net/gh/shidahuilang/pve@main/ssh.sh)"
+bash -c  "$(curl -fsSL https://raw.githubusercontent.com/varcli/sh/refs/heads/main/ssh.sh)"
